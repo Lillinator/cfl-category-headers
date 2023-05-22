@@ -1,5 +1,6 @@
 {
-  "name": "My first remote theme",
-  "about_url": "https://some.url.com",
+  "name": "cfl-category-headers",
+  "component": true,
+  "about_url": "https://github.com/Lillinator/cfl-category-headers/blob/main/README.md",
   "license_url": "https://github.com/Lillinator/cfl-category-headers/blob/main/LICENSE"
 }
