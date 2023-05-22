@@ -1,0 +1,258 @@
+// category header replacement
+
+.category-admin .d-header {
+    background: rgba(#320052, 0.85);
+    .d-header-icons .d-icon {
+        color: #bbbbbb;
+    }
+}
+
+.category-off-topic .d-header {
+    background: rgba(#320052, 0.85);
+    .d-header-icons .d-icon  {
+        color: #bbbbbb;
+    }
+    .header-sidebar-toggle button .d-icon {
+        color: #bbbbbb;
+        &:hover {
+            color: #555555;
+        }
+    }
+}
+
+.category-other-leagues-and-sports .d-header {
+    background: rgba(#404040, 0.90);
+    .d-header-icons .d-icon  {
+        color: #cccccc;
+    }
+    .header-sidebar-toggle button .d-icon {
+        color: #cccccc;
+        &:hover {
+            color: #999999;
+        }
+    }
+}
+
+.category-staff .d-header {
+    background: rgba(#6ebc29, 0.90);
+    .extra-info-wrapper .topic-link {
+    color: #444444;
+    }
+    .extra-info-wrapper .badge-wrapper.bullet span.badge-category  {
+    color: #444444;
+    }
+}
+
+.category-site-feedback .d-header {
+    background: rgba(#0E76BD, 0.90);
+        .d-header-icons .d-icon {
+        color: #cccccc;
+    }
+}
+
+
+//.category-cfl-news .d-header {
+//    background: rgba(#800000, 0.85);
+//}    
+
+.category-canadian-grassroots-football .d-header {
+    background: rgba(#ce0303, 0.90);
+    .d-header-icons .d-icon  {
+        color: #cccccc;
+    }
+    .header-sidebar-toggle button .d-icon {
+        color: #cccccc;
+        &:hover {
+            color: #999999;
+        }
+    }
+}    
+    
+.category-canadian-grassroots-football .d-header #site-logo.logo-small {
+	content:url($football-can-logo);
+}
+
+.category-canadian-grassroots-football .d-header #site-logo.logo-big {
+	content:url($football-can);
+}
+
+.category-admin-docs .d-header {
+    background-color: rgba(#cB00A1, 0.80);
+    .d-header-icons .d-icon {
+        color: #dddddd;
+    }
+}
+
+.category-site-feedback-help-desk .d-header {
+    background: rgba(#0E76BD, 0.90);
+    .d-header-icons .d-icon  {
+        color: #cccccc;
+    }
+    .header-sidebar-toggle button .d-icon {
+        color: #cccccc;
+        &:hover {
+            color: #999999;
+        }
+    }
+}
+
+
+//.category-cfl-talk-cfl-2023-schedule .d-header {
+//    background: rgba(#ce0303, 0.88);
+//}
+
+// Team category headers
+
+.category-bc-lions .d-header {
+    background: rgba(#000000, 0.85);    
+}
+
+.category-bc-lions .d-header #site-logo.logo-small {
+	content:url($claw);
+}
+
+.category-bc-lions .d-header #site-logo.logo-big {
+	content:url($bclions-wordmark);
+}
+
+.category-edmonton-elks .d-header {
+    background: rgba(#135532, 1.00);
+    .d-header-icons .d-icon  {
+        color: #cccccc;
+    }
+    .header-sidebar-toggle button .d-icon {
+        color: #cccccc;
+        &:hover {
+            color: #888888;
+        }
+    }
+}
+
+.category-edmonton-elks .d-header #site-logo.logo-small {
+	content:url($elks-logo1); 
+}
+
+.category-edmonton-elks .d-header #site-logo.logo-big {
+	content:url($elks-word);
+}
+
+.category-calgary-stampeders .d-header {
+    background: rgba(#ce0303, 0.90);
+    .d-header-icons .d-icon  {
+        color: #cccccc;
+    }
+    .header-sidebar-toggle button .d-icon {
+        color: #cccccc;
+        &:hover {
+            color: #999999;
+        }
+    }
+}    
+
+.category-calgary-stampeders .d-header #site-logo.logo-small {
+	content:url($logo-calgary);
+}
+
+.category-calgary-stampeders .d-header #site-logo.logo-big {
+	content:url($wordmark-stampeders);
+}
+
+.category-saskatchewan-roughriders .d-header {
+    background: rgba(#000000, 0.80);    
+}
+
+.category-saskatchewan-roughriders .d-header #site-logo.logo-small {
+	content:url($logo-saskatchewan);
+}
+
+.category-saskatchewan-roughriders .d-header #site-logo.logo-big {
+	content:url($wordmark-riderville);
+}
+
+.category-winnipeg-blue-bombers .d-header {
+    background: rgba(#232e5c, 0.85);
+    .d-header-icons .d-icon  {
+        color: #cccccc;
+    }
+    .header-sidebar-toggle button .d-icon {
+        color: #cccccc;
+        &:hover {
+            color: #999999;
+        }
+    }
+}   
+
+.category-winnipeg-blue-bombers .d-header #site-logo.logo-small {
+	content:url($logo-winnipeg);
+}
+
+.category-winnipeg-blue-bombers .d-header #site-logo.logo-big {
+	content:url($wordmark-bluebombers);
+}
+
+.category-hamilton-tiger-cats .d-header {
+    background: rgba(#ffb416, 0.95);
+    .extra-info-wrapper .topic-link {
+        color: #444444;
+    }
+    .extra-info-wrapper .badge-wrapper.bullet span.badge-category  {
+        color: #444444;
+    }
+}
+
+.category-hamilton-tiger-cats .d-header #site-logo.logo-small {
+	content:url($cats-logo);
+}
+
+.category-hamilton-tiger-cats .d-header #site-logo.logo-big {
+	content:url($wordmark-ham);
+}
+
+.category-toronto-argonauts .d-header {
+    background: rgba(#071d49, 0.85);
+}
+
+.category-toronto-argonauts .d-header #site-logo.logo-small {
+	content:url($logo-toronto);
+}
+
+.category-toronto-argonauts .d-header #site-logo.logo-big {
+	content:url($wordmark-argonauts);
+}
+
+.category-ottawa-redblacks .d-header {
+    background: rgba(#000000, 0.80);    
+}
+
+.category-ottawa-redblacks .d-header #site-logo.logo-small {
+	content:url($logo-ottawa);
+}
+
+.category-ottawa-redblacks .d-header #site-logo.logo-big {
+	content:url($wordmark-ottawaredblacks);
+}
+
+.category-alouettes-de-montra-al .d-header, .category-alouettes-de-montreal .d-header {
+    background: rgba(#d70e27, 1.00);
+    .d-header-icons .d-icon  {
+        color: #cccccc;
+    }
+    .header-sidebar-toggle button .d-icon {
+        color: #cccccc;
+        &:hover {
+            color: #999999;
+        }
+    }
+}    
+
+.category-alouettes-de-montra-al .d-header #site-logo.logo-small, .category-alouettes-de-montreal .d-header #site-logo.logo-small {
+	content:url($als-logo2);
+}
+
+.category-alouettes-de-montra-al .d-header #site-logo.logo-big, .category-alouettes-de-montreal .d-header #site-logo.logo-big {
+	content:url($als-wordmark2);
+}
+
+.category-lcf-forum-en-francais .d-header #site-logo.logo-small {
+	content:url($cfl-french);
+}
